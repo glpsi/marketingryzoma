@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%;
+    background-color: lightgray;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: lightgray;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%
+}
+
+section {
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    padding: 5px
+}
+
+.main-container {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+    float: left;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li {
+    background-color: darkgray;
+    margin: 1px 20px 1px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    color: rgb(100, 95, 95)
+}
+
+nav li:hover {
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.4rem;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: blue;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 5px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+footer {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+footer small {
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
